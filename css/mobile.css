@@ -1,0 +1,34 @@
+.section1{
+    grid-template-areas: 's1l'
+                        's1r';
+}
+.section1left img{
+    width: 100%;
+}
+.section1{
+    margin-top: 20px
+}
+.section2{
+    
+    ;
+}
+.section3 h2{
+padding: 19px;
+border: solid black;
+border-radius: 20px;
+box-shadow: 1px 3px 4px 5px ;
+margin: 5px;
+}
+
+.section3 h2:hover{
+    box-shadow: 5px 5px 5px;
+}
+footer{
+    position: relative;
+}
+.uu{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 40px;
+    left: 50px;
+}

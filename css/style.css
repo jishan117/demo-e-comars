@@ -1,0 +1,281 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.side{
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 160px;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 100px;
+
+}
+.container a{
+    background-color: rgba(0, 0, 0, 0);
+}
+.container a i{
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+/* headding ------------------------------------ */
+.headding{
+    height: 100px;
+    background-color: rgb(205, 205, 206);
+    position: relative;
+}
+.headding h1{
+    font-size: 40px;
+    color: rgb(47, 51, 128);
+    position: absolute;
+    left: 50px;
+    top: 46px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0);
+}
+.searcbox{
+    position: fixed;
+    display: flex;
+    right: 10px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.searcbox input{
+    width: 150px;
+    padding: 8px;
+    border: solid 1px rgb(236, 236, 236);
+    border-radius: 50px;
+    padding-left: 30px;
+    
+}
+.searcbox i{
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+/* headding end ------------------------------------ */
+
+/* section 1 start----------------------------------*/
+
+.section1{
+    padding: 20px;
+    display: grid;
+}
+.section1left{
+    grid-area: s1l;
+    
+}
+.section1right{
+    grid-area: s1r;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(127, 31, 236);
+}
+.section1right span{
+    color: rgb(141, 23, 165);
+}
+.section1right button{
+    font-size: 20px;
+    background: black;
+    color: aliceblue;
+    padding: 10px 80px;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+.section1right button:hover{
+    background: white;
+    color: black;
+}
+/* section 1 end------------------------------------*/
+.section2{
+    width: 80%;
+    
+    background-color: rgb(231, 230, 230);
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    grid-gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    box-shadow: 7px 7px 20px ;
+
+}
+.section2 h1{
+    background-color: rgba(255, 255, 255, 0.192);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: rgb(22, 1, 141);
+    text-shadow: 1px 1px 1px black;
+    height: 50px;
+    width: 80%;
+    border: solid 1px rgba(0, 0, 0, 0.171)  ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* card common*/
+
+.section2 button{
+    color: white;
+    background-color: black;
+    padding: 5px 9px;
+    border: none;
+    border-radius: 10px;
+}
+.section2 button:hover{
+    background-color: blueviolet;
+
+}
+/* card common*/
+/* card 1 start */
+.section2 .card1{
+    width: 250px;
+    height: 300px;
+    margin: 5px auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(2, 2, 2);
+    border: 1px rgb(73, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 8px rgb(148, 148, 148);
+    
+}
+.section2 .card1:hover{
+    box-shadow: 10px 5px 8px rgb(10, 10, 10);
+}
+/* card 1 end */
+
+/* card 2 start */
+.section2 .card2{
+    width: 250px;
+    height: 300px;
+    margin: 5px auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(43, 44, 44);
+    border: 1px rgb(73, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 8px rgb(148, 148, 148);
+}
+.section2 .card2:hover{
+    box-shadow: 10px 5px 8px rgb(10, 10, 10);
+}
+/* card 2 end */
+
+/* card 3 start */
+.section2 .card3{
+    width: 250px;
+    height: 300px;
+    margin: 5px auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(40, 40, 41);
+    border: 1px rgb(73, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 8px rgb(148, 148, 148);
+}
+.section2 .card3:hover{
+    box-shadow: 10px 5px 8px rgb(10, 10, 10);
+}
+/* card 3 end */
+
+/* card 4 start */
+.section2 .card4{
+    width: 250px;
+    height: 300px;
+    margin: 5px auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(30, 30, 31);
+    border: 1px rgb(73, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 8px rgb(148, 148, 148);
+}
+.section2 .card4:hover{
+    box-shadow: 10px 5px 8px rgb(10, 10, 10);
+}
+/* card 4 end */
+
+/* card 5 start */
+.section2 .card5{
+    width: 250px;
+    height: 300px;
+    margin: 5px auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(30, 30, 31);
+    border: 1px rgb(73, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 8px rgb(148, 148, 148);
+}
+.section2 .card5:hover{
+    box-shadow: 10px 5px 8px rgb(10, 10, 10);
+}
+/* card 5 end */
+
+/* card 6 start */
+.section2 .card6{
+    width: 250px;
+    height: 300px;
+    margin: 5px auto;
+    background-color: rgb(251, 255, 255);
+    text-align: center;
+    color: rgb(30, 30, 31);
+    border: 1px rgb(73, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 8px rgb(148, 148, 148);
+}
+.section2 .card6:hover{
+    box-shadow: 10px 5px 8px rgb(10, 10, 10);
+}
+/* card 6 end */
+/*section3 start*/
+.section3{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section3 h1{
+    text-align: center;
+    color: rgb(45, 45, 88);
+    font-size: 50px;
+    text-decoration: underline;
+}
+.section3 h2{
+    color: rgb(83, 83, 83);
+}
+.section3 h2 span{
+    color: rgb(70, 43, 226);
+}
+.section3 p{
+    text-align: justify;
+    color: rgb(105, 105, 105);
+}
+/*section 4 start*/
+    .section4 .card1{
+        
+    }
+    
+/*section 4 start*/
+footer{
+    height: 100px;
+    background-color: gray;
+    color: black;
+    position: relative;
+    text-align: center;
+}
+.uu{
+    
+    
+}

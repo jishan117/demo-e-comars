@@ -1,0 +1,32 @@
+
+
+
+
+.section1{
+    grid-template-areas: 's1l s1r';
+}
+.section1right{
+    
+}
+.section1left img{
+    padding-left: 150px;
+    width: 700px;
+   
+}
+card1{
+    
+}
+.section3{
+    display: flex;
+
+}
+.section2left{
+    width: 50%;
+}
+.section3right{
+    width: 50%;
+}
+.uu{
+    padding-top: 30px;
+    background-color: rgba(73, 67, 67, 0);
+}
